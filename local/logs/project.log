@@ -1,0 +1,86 @@
+2022-05-06T07:31:36.232Z - normal: Load ~/.CocosCreator/settings.json
+2022-05-06T07:31:36.271Z - normal: Initializing Asset Database
+2022-05-06T07:31:36.273Z - normal: checking language setting...
+2022-05-06T07:31:36.273Z - normal: Language: en
+2022-05-06T07:31:36.691Z - success: preview server running at http://localhost:7456
+2022-05-06T07:31:36.698Z - success: protocol editor-framework registered
+2022-05-06T07:31:36.698Z - success: protocol app registered
+2022-05-06T07:31:36.698Z - success: protocol theme registered
+2022-05-06T07:31:36.698Z - success: protocol packages registered
+2022-05-06T07:31:36.699Z - success: protocol uuid registerred
+2022-05-06T07:31:36.699Z - success: protocol db registerred
+2022-05-06T07:31:36.699Z - success: protocol thumbnail registerred
+2022-05-06T07:31:36.699Z - success: protocol unpack registerred
+2022-05-06T07:31:36.699Z - success: protocol disable-commonjs registerred
+2022-05-06T07:31:37.542Z - normal: connected!
+2022-05-06T07:31:37.543Z - normal: Check project /Users/fresher-duclong/BT_Register
+2022-05-06T07:31:37.545Z - normal: Initializing project /Users/fresher-duclong/BT_Register
+2022-05-06T07:31:37.779Z - normal: Initializing Cocos2d
+2022-05-06T07:31:38.161Z - normal: Initializing engine extends
+2022-05-06T07:31:38.181Z - success: alipay-adapter loaded
+2022-05-06T07:31:38.187Z - success: asset-db-debugger loaded
+2022-05-06T07:31:38.190Z - success: baidu-adapter loaded
+2022-05-06T07:31:38.193Z - success: color-picker loaded
+2022-05-06T07:31:38.285Z - success: fb-audience-network loaded
+2022-05-06T07:31:38.315Z - success: fb-live-stream loaded
+2022-05-06T07:31:38.317Z - success: google-play-instant loaded
+2022-05-06T07:31:38.320Z - success: huawei-runtime loaded
+2022-05-06T07:31:38.448Z - success: cpk-publish loaded
+2022-05-06T07:31:38.449Z - success: jsb-adapter loaded
+2022-05-06T07:31:38.451Z - success: oppo-runtime loaded
+2022-05-06T07:31:38.454Z - success: package-manager loaded
+2022-05-06T07:31:38.519Z - success: qqplay-adapter loaded
+2022-05-06T07:31:38.519Z - success: runtime-dev-tools loaded
+2022-05-06T07:31:38.538Z - success: sdkbox loaded
+2022-05-06T07:31:38.543Z - success: tester loaded
+2022-05-06T07:31:38.544Z - success: ui-kit-preview-extra loaded
+2022-05-06T07:31:38.546Z - success: ui-kit-preview loaded
+2022-05-06T07:31:38.548Z - success: ui-kit loaded
+2022-05-06T07:31:38.552Z - success: vivo-runtime loaded
+2022-05-06T07:31:38.553Z - success: weapp-adapter loaded
+2022-05-06T07:31:38.553Z - success: xiaomi-adapter loaded
+2022-05-06T07:31:38.555Z - success: alipay-minigame loaded
+2022-05-06T07:31:38.585Z - success: assets loaded
+2022-05-06T07:31:38.587Z - success: builder loaded
+2022-05-06T07:31:38.741Z - success: cocos-services loaded
+2022-05-06T07:31:38.745Z - success: console loaded
+2022-05-06T07:31:38.767Z - success: fb-instant-games loaded
+2022-05-06T07:31:38.769Z - success: game-window loaded
+2022-05-06T07:31:38.770Z - success: google-instant-games loaded
+2022-05-06T07:31:38.774Z - success: hierarchy loaded
+2022-05-06T07:31:38.776Z - success: inspector loaded
+2022-05-06T07:31:38.777Z - success: keystore loaded
+2022-05-06T07:31:38.780Z - success: node-library loaded
+2022-05-06T07:31:38.781Z - success: package-asset loaded
+2022-05-06T07:31:38.782Z - success: preferences loaded
+2022-05-06T07:31:38.783Z - success: project-exporter loaded
+2022-05-06T07:31:38.787Z - success: project-importer loaded
+2022-05-06T07:31:38.789Z - success: project-settings loaded
+2022-05-06T07:31:38.794Z - success: scene loaded
+2022-05-06T07:31:38.795Z - success: simulator-debugger loaded
+2022-05-06T07:31:38.796Z - success: sprite-editor loaded
+2022-05-06T07:31:38.799Z - success: store loaded
+2022-05-06T07:31:38.803Z - success: timeline loaded
+2022-05-06T07:31:38.806Z - success: xiaomi-runtime loaded
+2022-05-06T07:31:39.428Z - normal: Loading packages
+2022-05-06T07:31:39.431Z - normal: Watching packages
+2022-05-06T07:31:39.496Z - normal: Run Application
+2022-05-06T07:31:40.831Z - info: Cocos Services load base data!
+2022-05-06T09:54:53.558Z - failed: [db-task][sync-changes] Failed to import asset /Users/fresher-duclong/BT_Register/assets/Script/RegisterUser.js, message: Compile error: SyntaxError: /Users/fresher-duclong/BT_Register/assets/Script/RegisterUser.js: Invalid left-hand side in assignment expression (69:12)
+  67 |             item.y = -30-(i*60);
+  68 |             item.getChildByName("item").getComponent(cc.Label).string = users[i].username;
+> 69 |             this.content.getComponent(cc.Size) +=30;
+     |             ^
+  70 |         }
+  71 |     },
+  72 |     checkEmail: function(){
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp$2.checkLVal (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3233:14)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3352:10)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1906:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1868:19)
+    at Parser.pp$1.parseFor (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2306:20)
+    at Parser.pp$1.parseForStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2032:17)
